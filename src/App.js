@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-const m = require('marked')
 
 
 class App extends Component {
@@ -27,7 +25,7 @@ class App extends Component {
         </textarea>
         <textarea 
           className="input-text-box"
-          readonly="true"
+          readOnly="true"
           value={this.state.content}>
         </textarea>
       </div>
