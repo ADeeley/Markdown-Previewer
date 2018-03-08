@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.input-text-box {
+  display: inline-block;
+  width: 45%;
+  height: 500px;
+  margin: 10px;
+  border: 2px solid black;
+  font-size: 1.5em;
+  resize: none;
+}
+
+.heading-text {
+  margin: 0;
+  font-size: 2em;
+}
+
+.sub-heading-text {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.heading-outer-container {
+  border-left: 10px solid purple;
+  display: flex;
+  flex-grow: 0;
+  margin: 60px 60px 10px 60px;
+}
+
+.heading-inner-container {
+  margin-left: 10px;
+  flex-grow: 0;
+}
