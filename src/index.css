@@ -6,15 +6,23 @@ body {
 
 .container {
   display: flex;
-  text-align: center;
+  justify-content: center;
 }
 
 .input-text-box {
-  display: inline-block;
   width: 45%;
   height: 500px;
   margin: 10px;
-  border: 2px solid black;
+  border: 1px solid black;
+  font-size: 1.5em;
+  resize: none;
+}
+
+.output-text-box {
+  width: 45%;
+  height: 500px;
+  margin: 10px;
+  border: 1px solid black;
   font-size: 1.5em;
   resize: none;
 }
