@@ -16,15 +16,18 @@ body {
   border: 1px solid black;
   font-size: 1.5em;
   resize: none;
+  box-shadow: 5px 5px;
 }
 
 .output-text-box {
   width: 45%;
-  height: 500px;
+  height: 504px;
   margin: 10px;
   border: 1px solid black;
   font-size: 1.5em;
   resize: none;
+  box-shadow: 5px 5px;
+  word-wrap: break-word;
 }
 
 .heading-text {
